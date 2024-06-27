@@ -1,0 +1,424 @@
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1920px;
+    }
+}
+
+.filter-style {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-section {
+    display: flex;
+    align-items: center;
+}
+
+#carrierTable_filter,
+#carrierDapartmentTable_filter,
+#supplementary_table_filter,
+#customerTable_filter,
+#recipientTable_filter,
+#recommendtagTable_filter,
+#doseTagTable_filter,
+#quickLinkTable_filter,
+#addOnItemTable_filter,
+#optionalItem_filter,
+#mainOptionalTable_filter,
+#subCategoryTable_filter,
+#categoryTable_filter,
+#milestoneYearTable_filter,
+#milestoneDetail_table_filter,
+#acivity_log_table_filter,
+#feature_tag_table_filter,
+#price_tag_table_filter,
+#highlight_tag_table_filter,
+#key_item_tag_table_filter,
+#sub_key_item_tag_table_filter,
+#vaccine_factory_tag_table_filter,
+#time_slot_tag_table_filter,
+#user_table_filter,
+#roleTable_filter,
+#permissionTable_filter,
+#pages_table_filter,
+#territories_table_filter,
+#areas_table_filter,
+#headers_table_filter,
+#footers_table_filter,
+#sliderTable_filter,
+#districts_table_filter,
+#blogTable_filter,
+#aboutTable_filter,
+#cuponTable_filter,
+#blogCategoryTable_filter,
+#cuponCategoryTable_filter,
+#saleCategoryTable_filter,
+#promotionCategoryTable_filter,
+#faqTable_filter,
+#faqCategoryTable_filter,
+#contactServiceTable_filter,
+#initateTable_filter,
+#tagTable_filter,
+#DataTables_Table_0_filter {
+    float: left;
+}
+
+#carrierTable_length,
+#carrierDapartmentTable_length,
+#supplementary_table_length,
+#customerTable_length,
+#recipientTable_length,
+#recommendtagTable_length,
+#doseTagTable_length,
+#quickLinkTable_length,
+#addOnItemTable_length,
+#optionalItem_length,
+#mainOptionalTable_length,
+#subCategoryTable_length,
+#categoryTable_length,
+#milestoneDetail_table_length,
+#milestoneYearTable_length,
+#acivity_log_table_length,
+#feature_tag_table_length,
+#price_tag_table_length,
+#highlight_tag_table_length,
+#key_item_tag_table_length,
+#sub_key_item_tag_table_length,
+#vaccine_factory_tag_table_length,
+#time_slot_tag_table_length,
+#user_table_length,
+#roleTable_length,
+#permissionTable_length,
+#pages_table_length,
+#territories_table_length,
+#headers_table_length,
+#areas_table_length,
+#footers_table_length,
+#districts_table_length,
+#sliderTable_length,
+#blogTable_length,
+#aboutTable_length,
+#cuponTable_length,
+#blogCategoryTable_length,
+#cuponCategoryTable_length,
+#saleCategoryTable_length,
+#promotionCategoryTable_length,
+#faqTable_length,
+#faqCategoryTable_length,
+#contactServiceTable_length,
+#initateTable_length,
+#tagTable_length,
+#DataTables_Table_0_length {
+    float: right;
+}
+.sticky-sidebar {
+    position: sticky !important;
+    bottom: 0;
+    background-color: #2E3A43 !important;
+    border-top: 2px solid #4A89B6;
+}
+
+.active-show{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.aside-dark .menu .menu-item .menu-link.active .menu-bullet .bullet{
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+.aside-dark .menu .menu-item.here>.menu-link {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.aside.aside-dark .aside-logo {
+    background-color: #ffffff;
+}
+
+.aside-menu {
+    background-color: #2E3A43;
+}
+
+.aside-dark .menu .menu-item .menu-link.active {
+    background-color: #2E3A43;
+}
+
+.aside-dark .menu .menu-item.hover:not(.here)>.menu-link:not(.disabled):not(.active):not(.here),
+.aside-dark .menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.aside-dark .menu .menu-item .menu-link .menu-title {
+    color: #ffffff;
+}
+
+.aside-dark .menu .menu-item .menu-link.active .menu-title {
+    color: #677086;
+}
+
+.aside-dark .menu .menu-item .menu-section {
+    color:#7399ED !important;
+}
+
+.aside-dark .menu .menu-item .menu-link .menu-icon,
+.aside-dark .menu .menu-item .menu-link .menu-icon .svg-icon,
+.aside-dark .menu .menu-item .menu-link .menu-icon i {
+    color: #ffffff !important;
+}
+
+.aside-dark .menu .menu-item.hover:not(.here)>.menu-link:not(.disabled):not(.active):not(.here) .menu-bullet .bullet,
+.aside-dark .menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) .menu-bullet .bullet {
+    background-color: #2E3A43;
+}
+
+#holder-meta-image img,
+#holder-milestone-img img,
+#holder-banner-image img,
+#holder-cooperation-image img,
+#holder-group-image img,
+#holder-img img{
+    width: 100%;
+    height: 20rem !important;
+}
+
+#holder-video video{
+    width: 100%;
+    height: 20rem !important;
+}
+
+#holder-icon-img {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+#holder-icon-img, img{
+    width: 100%;
+    height: 15rem !important;
+}
+
+#holder-img img,
+#holder-video video,
+#holder-category-image img,
+#holder-icon2-image img,
+#holder-blog-detail-image img,
+#holder-rent-image img,
+#holder-lend-image img,
+#holder-banner-image img,
+#holder-meta-image img,
+#holder-cooperation-image img,
+#holder-group-image img,
+#holder-image img,
+#holder-content1-image img,
+#holder-content2-image img,
+#holder-play-lending-image img,
+#holder-after-lending-image img,
+#holder-during-lending-image img,
+#holder-before-lending-image img,
+#holder-after-renting-image img,
+#holder-during-renting-image img,
+#holder-before-renting-image img,
+#holder-play-renting-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.dragGroup{
+    padding: 0px;
+}
+
+.draggable {
+will-change: transform;
+font-family: "Raleway", sans-serif;
+font-weight: 800;
+list-style-type: none;
+background-color: white;
+color: #212121;
+cursor: move;
+transition: all 200ms;
+user-select: none;
+position: relative;
+}
+
+.draggable:hover:after {
+content: 'drag me';
+right: 7px;
+font-size: 10px;
+position: absolute;
+cursor: pointer;
+line-height: 5;
+transition: all 200ms;
+transition-timing-function: cubic-bezier(0.48, 0.72, 0.62, 1.5);
+transform: translateX(120%);
+opacity: 0;
+}
+
+.dragIcon {
+    cursor: pointer;
+}
+
+.lfmimage-container{
+    border: 1px solid #ccc;
+}
+
+#holder3 ,#holder4,#holder5,#holder6,#holder7{
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#holder3 img ,#holder4 img,#holder5 img,#holder6 img ,#holder7 img{
+    width: 100%;
+    height: 10rem;
+}
+
+
+#subscribers .btn-sub-status-active {
+    background: #c9f7f5;
+    color: #72ded9;
+    padding: 5px 12px !important;
+}
+
+#subscribers .btn-sub-status-expired {
+    background: #ffe2e5;
+    color: #f98592;
+    padding: 5px 12px !important;
+}
+
+.overall_description .tox.tox-tinymce,
+.before_rental_description .tox.tox-tinymce,
+.during_the_rental .tox.tox-tinymce,
+.after_the_rental .tox.tox-tinymce,
+#before_rental_description .tox.tox-tinymce,
+#before_lending_description2_enn .tox.tox-tinymce {
+    max-height: 300px;
+}
+
+#carrierTable_filter .form-control,
+#carrierDapartmentTable_filter .form-control,
+#supplementary_table_filter .form-control,
+#customerTable_filter .form-control,
+#recipientTable_filter .form-control,
+#recommendtagTable_filter .form-control,
+#doseTagTable_filter .form-control,
+#quickLinkTable_filter .form-control,
+#addOnItemTable_filter .form-control,
+#optionalItem_filter .form-control,
+#mainOptionalTable_filter .form-control,
+#subCategoryTable_filter .form-control,
+#categoryTable_filter .form-control,
+#milestoneDetail_table_filter .form-control,
+#milestoneYearTable_filter .form-control,
+#acivity_log_table_filter .form-control,
+#feature_tag_table_filter .form-control,
+#price_tag_table_filter .form-control,
+#highlight_tag_table_filter .form-control,
+#key_item_tag_table_filter .form-control,
+#sub_key_item_tag_table_filter .form-control,
+#vaccine_factory_tag_table_filter .form-control,
+#time_slot_tag_table_filter .form-control,
+#user_table_filter .form-control,
+#roleTable_filter .form-control,
+#permissionTable_filter .form-control,
+#pages_table_filter .form-control,
+#territories_table_filter .form-control,
+#areas_table_filter .form-control,
+#blogTable_filter .form-control,
+#aboutTable_filter .form-control,
+#cuponTable_filter .form-control,
+#faqTable_filter .form-control,
+#faqCategoryTable_filter .form-control,
+#contactServiceTable_filter .form-control,
+#blogCategoryTable_filter .form-control,
+#cuponCategoryTable_filter .form-control,
+#saleCategoryTable_filter .form-control,
+#promotionCategoryTable_filter .form-control,
+#districts_table_filter .form-control,
+#sliderTable_filter .form-control,
+#headers_table_filter .form-control,
+#footers_table_filter .form-control,
+#initateTable_filter .form-control,
+#DataTables_Table_0_filter .form-control,
+#tagTable_filter .form-control {
+    padding-left: 30px;
+    background-color: #F3F6F9;
+}
+
+.datatable-search{
+    position: absolute;
+    top: 24px;
+    right:auto;
+    left: 45px;
+}
+
+.activity-datatable-search{
+    position: absolute;
+    top: 24px;
+    right:auto;
+    left: 55px;
+}
+
+.order-datatable-search,
+.overall-datatable-search{
+    position: absolute;
+    top: 51px;
+    right:auto;
+    left: 45px;
+}
+
+.blog-datatable-search {
+    position: absolute;
+    top: 23px;
+    right:auto;
+    left: 15px;
+}
+
+.faq-datatable-search {
+    position: absolute;
+    top: 38px;
+    right:auto;
+    left: 45px;
+}
+
+.tag-datatable-search {
+    position: absolute;
+    top: 93px;
+    right:auto;
+    left: 45px;
+}
+
+.font{
+    font-size: 14px !important;
+    color: #6C7293 !important;
+}
+
+.f-s{
+    font-size: 14px !important;
+}
+
+@media (max-width: 768px) {
+    .order-datatable-search{
+        position: absolute;
+        top: 47px;
+        right:auto;
+        left: 45px;
+    }
+}
+
+#auto_translate{
+    width: 20px;
+    height: 15px;
+}
+
+.action-dropdown{
+    transform: translate(-20px, 40px) !important;
+}
+
+/* @media (max-width: 1350px) {
+    .action-dropdown{
+        transform: translate(-92px, -2px) !important;
+    }
+} */

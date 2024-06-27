@@ -1,0 +1,208 @@
+/*app scroll*/
+.app-scroll::-webkit-scrollbar-thumb,
+.app-scroll-thin::-webkit-scrollbar-thumb {
+    background: #323232;
+}
+.app-scroll-thin::-webkit-scrollbar {
+    background: #2c2c2c;
+}
+.app-scroll::-webkit-scrollbar:hover,
+.app-scroll-thin::-webkit-scrollbar:hover {
+    background: #2c2c2c;
+}
+
+.messenger {
+    background: #272727;
+}
+.messenger-search[type="text"] {
+    background: #323232;
+    color: #fff;
+}
+.messenger-listView {
+    background: #272727;
+    border: 1px solid #323232;
+}
+.messenger-listView-tabs {
+    border-bottom: 1px solid #323232;
+}
+.messenger-listView-tabs a:hover,
+.messenger-listView-tabs a:focus {
+    background-color: #323232;
+}
+.messenger-favorites div.avatar {
+    border: 2px solid #272727;
+}
+.messenger-list-item:hover {
+    background: #323232;
+}
+.messenger-messagingView {
+    border-top: 1px solid #323232;
+    border-bottom: 1px solid #323232;
+    background: #272727;
+}
+.m-header-messaging {
+    background: #323232;
+}
+.messenger-infoView {
+    background: #272727;
+    border: 1px solid #323232;
+}
+.messenger-infoView > p {
+    color: #fff;
+}
+.divider {
+    border-top: 1px solid #2f2f2f;
+}
+.messenger-sendCard {
+    background: #323232;
+    border-top: 1px solid #272727;
+}
+.attachment-preview > p {
+    color: #fff;
+}
+.m-send {
+    color: #fff;
+}
+.message-card p {
+    background: #323232;
+    color: #fff;
+}
+.m-li-divider {
+    border-bottom: 1px solid #323232;
+}
+.m-header a,
+.m-header a:hover,
+.m-header a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+.messenger-list-item td p {
+    color: #fff;
+}
+.activeStatus {
+    border: 2px solid #272727;
+}
+.messenger-list-item:hover .activeStatus {
+    border-color: #323232;
+}
+.messenger-favorites > div p {
+    color: #ffffff;
+}
+.avatar {
+    background-color: #323232;
+}
+/*
+***********************************************
+* Placeholder loading
+***********************************************
+*/
+.loadingPlaceholder-body div,
+.loadingPlaceholder-header tr td div {
+    background: #323232;
+    background-image: -webkit-linear-gradient(
+        left,
+        #323232 0%,
+        #323232 20%,
+        #323232 40%,
+        #323232 100%
+    );
+}
+
+/*
+***********************************************
+* App Modal
+***********************************************
+*/
+
+.app-modal-card {
+    background: rgba(50, 50, 50, 0.94);
+}
+.app-modal-header {
+    color: #fff;
+}
+.app-modal-body {
+    color: #fff;
+}
+
+.messages sub {
+    color: #fff;
+}
+
+.chatify-hover-delete-btn {
+    color: #ffffff;
+}
+
+
+
+.chat_rental_container{
+    padding: 0 40px;
+    background-color: #272727;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .chat_rental_container > div:first-child{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .chat_rental_container > div:first-child > p:first-child{
+    font-size: 14px; 
+    color: #f9faff;
+  }
+  
+  .chat_rental_container > div:first-child > p:last-child{
+    font-size: 12px; 
+    color: #B5B5C3;
+    font-weight: 500;
+  }
+  
+  .chat_rental_container > div:first-child > p:last-child > span{
+    color: #3699FF; 
+    font-weight: 600;
+  }
+  
+  .chat_rental_container > div:last-child{
+    max-height: 238px;
+    overflow: auto;
+  }
+  
+  .chat_rental_container > div:last-child > div{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    border-bottom: 1px solid #B5B5C3;
+    display: flex;
+  }
+  
+  .chat_rental_container > div:last-child > div > div{
+    padding-left: 12px;
+    flex-basis: 100%;
+  }
+  
+  .chat_rental_container > div:last-child h1{
+    font-size: 12px;
+    font-weight: 500;
+    color: #eff0fa;
+    text-align: left;
+  }
+  
+  .chat_rental_container > div:last-child p{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 500;
+    color: #8588a3;
+  }
+  
+  .chat_rental_container > div:last-child p > span{
+    color: #FF3F64;
+    font-weight: 300;
+  }
+  
+  .chat_rental_container > div:last-child::-webkit-scrollbar{
+    width: 2px;
+  }
+  
+  .chat_rental_container > div:last-child::-webkit-scrollbar-thumb{
+    background-color: #67BDFF;
+  }

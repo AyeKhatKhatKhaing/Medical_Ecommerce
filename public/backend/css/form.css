@@ -1,0 +1,74 @@
+
+/* .aside-dark .menu .menu-item.here > .menu-link
+{
+    background-color:#016FCA;
+}
+.aside.aside-dark .aside-logo{
+    background-color:#FFFFFF;
+}
+.aside-menu{
+    background-color:#005DAA;
+}
+.aside-dark .menu .menu-item .menu-link.active{
+    background-color:#005DAA;
+}
+.aside-dark .menu .menu-item.hover:not(.here) > .menu-link:not(.disabled):not(.active):not(.here), .aside-dark .menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here){
+    background-color:#2d89d6;
+}
+
+.aside-dark .menu .menu-item .menu-link .menu-title{
+    color:#FFFFFF;
+}
+.aside-dark .menu .menu-item .menu-link.active .menu-title{
+    color:#86C8FF;
+} */
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px !important;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+.btn i{
+    padding:0;
+}
+/* .aside-dark .menu .menu-item .menu-section{
+    color:#7399ED !important;
+}
+.aside-dark .menu .menu-item .menu-link .menu-icon, .aside-dark .menu .menu-item .menu-link .menu-icon .svg-icon, .aside-dark .menu .menu-item .menu-link .menu-icon i{
+    color:#FFFFFF;
+} */
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: black;
+    background-color: #009ef7;
+    border-color: #E4E6EF #E4E6EF #ffffff;
+}
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    background: none;
+    border: 0px solid transparent !important;
+    border-top-left-radius: 0.775rem;
+    border-top-right-radius: 0.775rem;
+}
+.content-body{
+    padding: 0px !important;
+}
+.nav_link{
+    padding:11px
+}
+.aside.aside-dark .separator{
+    color:#4A89B6;
+}
+.aside.aside-dark .separator{
+    border-bottom-color:#4A89B6;
+}
+.nav-tabs {
+    border-bottom: 0px solid #EFF2F5 !important;
+}
+.btn-sm{
+    padding:11px !important;
+}

@@ -1,0 +1,25 @@
+<?php
+
+namespace App\Http\Middleware;
+
+use Closure;
+use LaravelLocalization;
+use Illuminate\Http\Request;
+
+class LocalizeApiRequests
+{
+    /**
+     * Handle an incoming request.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Closure(\Illuminate\Http\Request): (\Illuminate\Http\Response|\Illuminate\Http\RedirectResponse)  $next
+     * @return \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse
+     */
+    public function handle(Request $request, Closure $next)
+    {
+        \App::setLocale($request->header('X-App-Locale'));
+        // dd(\App::getLocale());
+        // LaravelLocalization::setLocale($request->header('X-App-Locale'));
+        return $next($request);
+    }
+}
